@@ -1,0 +1,40 @@
+body {
+    margin: auto;
+  background-color: #bafa82;
+    text-align: center;
+    font-family: cursive
+    
+}
+h1 {
+  color: black;
+    font-family: cursive;
+    text-align: center;
+    
+}
+p {
+  color: black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 18px;
+   
+}
+form{
+    text-align: center;
+    font-family: cursive
+    
+}
+#favorite-restaurant{
+    text-align: center;
+    font-family: cursive
+  
+}
+#additional-comments{
+    text-align: center;
+    font-family: cursive
+       
+}
+.responsive {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}

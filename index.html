@@ -1,0 +1,87 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+       <link rel="stylesheet" href="style.css">
+
+        <meta charset="utf-8">
+    <meta name="description" content="A survey on the eating habits of people that eat at restaurants">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="eating habits, resturants, dining out">
+    <meta name="author" content="Greg Tonnis">
+        <title>Eating Habits of Dining Out</title>
+    </head>
+    <body>
+     <h1 id="title">Restaurants</h1>
+
+
+      <img src="images/food4.jpg" alt="food" class= "responsive" id= "image">
+        <p id="description">Eating Habits of Dining Out Survey</p>
+
+       <form id="survey-form">
+
+        <label id="name-label">Name:</label>
+        <input type="text" name="name" id="name" required placeholder="john smith"></input><br><br>
+        <label id="email-label">Email:</label> 
+        <input type="email" name="email" id="email" required placeholder="user@yahoo.com"></input><br><br>
+        <label id="number-label">Phone:</label> 
+        <input type="number" name="number" id="number" min="7" max="10" required placeholder="513-555-1234"></input><br>
+
+        <p>Please select your gender:</p>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label>
+
+        <p>Please select your age:</p>
+      <input type="radio" id="age1" name="age" value="30">
+      <label for="age1">0 - 30</label>
+      <input type="radio" id="age2" name="age" value="60">
+      <label for="age2">31 - 60</label>
+      <input type="radio" id="age3" name="age" value="100">
+      <label for="age3">61 - 100</label><br><br>
+
+       <label for="favorite food">What is your favorite type food?:</label>
+      <select id="dropdown" name="favorite food">
+       <option value="American">American</option>
+        <option value="Seafood">Seafood</option>
+        <option value="italian">Italian</option>
+        <option value="chinese">Chinese</option>
+        <option value="mediterranean">Mediterranean</option>
+        <option value="vegan">Vegan</option>
+      </select><br><br>
+
+       <p>How often do you eat at a Restaurant?:</p>
+    <input type="checkbox" id="every day" name="every day" value="every day">
+    <label for="every day">Every day</label>
+
+    <input type="checkbox" id="a few times a week" name="a few times a week" value="a few times a week">
+    <label for="a few times a week">A few times a week</label>
+
+    <input type="checkbox" id="a few times a month" name="a few times a month" value="a few times a month">
+    <label for="a few times a month">
+    A few times a month</label>
+
+      <input type="checkbox" id="less than a few times a month" name="less than a few times a month" value="three times a month">
+    <label for="less than a few times a month">Less than a few times a month</label>
+
+       <input type="checkbox" id="never" name="never" value="three times a month">
+    <label for="never">Never</label><br><br><br>
+
+       <textarea id="favorite-restaurant" name="favorite restaurant" rows="2" cols="50">
+    What is your favorite Restaurant?
+    </textarea><br><br>
+
+       <textarea id="additional-comments" name="additional comments" rows="4" cols="50">
+    Any additional comments
+    </textarea><br><br>
+    <button type="submit" id="submit" value="Submit">Submit</button><br>
+
+    </form>
+       
+
+
+
+
+
+    </body>
+    </html>
